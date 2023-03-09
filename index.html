@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -15,25 +16,70 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>The <strong>head</strong> element contains information about the webpage.</li>
+          <li>The <strong>body</strong> element represents the visible content shown to the user.</li>
           <li>The use of <strong>h1</strong>, <strong>h2</strong>, ..., <strong>h6</strong> 
           provides differeint size titles.</li>
-          <li>Lists can be created using <strong>ul</strong> for unordered and <strong>ol</strong> for ordered </li>
+          <li>The use of <strong>p</strong> represents paragraph or block of text, used extensively to 
+          wrap most of the text on webpages</li>
+          <li>Lists can be created using <strong>ul</strong> for unordered and <strong>ol</strong> for 
+            ordered </li>
+          <li>The use of <strong>img</strong> represents information about images</li>
+            <ul>
+              <li>These can contain various attributes</li>
+              <li>The <strong>src</strong> attribute is most important because it defines location</li>
+            </ul>
+          <li>The use of <strong>br</strong> is for line of empty space or a line break</li>
+          <li> The use of <strong>a</strong> represents 'ancor'</li>
+            <ul>
+              <li>creates links to the same page or other webpages</li>
+              <li><strong>href</strong> attributes points to URL for the link</li>
+            </ul>
+          <li>The use of <strong>header</strong> usually contains a navigation menu and/or intro content</li>
+            <ul>
+              <li>in our case, it holds <strong>h1</strong> heading that renders "Prework Study Guide"</li>
+            </ul>
+          <li>The use of <strong>main</strong> will be discussed later...</li>
+          <li>The use of <strong>footer</strong> appears at the bottom and usually contains author, 
+          copyright, contact, sitemap, and navigation</li>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A <strong>margin</strong> indicates how much space we want around the outside of an element</li>
+          <li>A <strong>padding</strong> indicates how much space we want around the content inside an
+          element</li>
+          <li> a <strong>declaration</strong> has two parts - property: value</li>
+          <li>The use of <strong>*</strong>, a special wild card symbol, declares for all elements on 
+          the page</li>
+          <li>The use of <strong>link</strong> links resources to HTML</li>
+            <ul>
+              <li>The use of <strong>rel=</strong> specifies the relationship between current documents
+              and linked documents</li>
+              <li>The use of <strong>href=</strong> refers to a location (URL) of external resources</li>
+            </ul>
         </ul>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>git pull: pulls latest version from GitHub to local computer</li>
+          <li>Always use <strong>git</strong> before the command</li>
+          <li>git <strong>status</strong>: checks what branch we are currently on</li>
+          <li>git <strong>checkout</strong>: switches to a branch</li>
+            <ul>
+              <li>git checkout <strong>-b branch-name</strong>: creates a new branch 'branch-name'</li>
+              <li>git checkout <strong>main</strong>: switches back to main branch</li>
+            </ul>
+          <li>git <strong>pull</strong>: pulls latest version from GitHub to local computer</li>
+            <ul>git pull <strong>origin main</strong>: syncs local branch with remote branch</ul>
+          <li>git <strong>add -A</strong>: commits all files in working branch</li>
+          <li>git <strong>commit -m "message here"</strong>: associates message with the commit</li>
+          <li>git <strong>push</strong>: can create new branch or add new changes to existing branch</li>
+            <ul>
+              <li>git push <strong>origin feature/branch</strong>: pushes changeswe have locally to 
+              GitHub branch</li>
+            </ul>
         </ul>
       </section>
       <section class="card" id="javascript-section">
